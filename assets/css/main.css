@@ -677,7 +677,7 @@ input, select, textarea {
 /* List */
 
 	ol {
-		list-style: decimal;
+		/* list-style: decimal; */
 		margin: 0 0 2em 0;
 		padding-left: 1.25em;
 	}
@@ -1092,10 +1092,11 @@ input, select, textarea {
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			font-weight: 600;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 0.9em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -1121,7 +1122,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("../../images/fulls/05.jpg"), url("../../images/bg.jpg"); /* 배경 이미지 */
+		background-image: url("../../images/fulls/02.jpg"), url("../../images/bg.jpg"); /* 배경 이미지 */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -1748,3 +1749,10 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* 직접 추가한 코드 */
+
+section h2 {
+	text-align: center;
+}
